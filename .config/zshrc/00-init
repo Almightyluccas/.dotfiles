@@ -1,0 +1,23 @@
+# -----------------------------------------------------
+# INIT
+# -----------------------------------------------------
+
+# -----------------------------------------------------
+# Exports
+# -----------------------------------------------------
+export EDITOR=nvim
+export ZSH="$HOME/.oh-my-zsh"
+export PATH=$PATH:~/.cargo/bin/
+export PATH=$PATH:~/.local/bin/
+
+#changed ollama download location
+export OLLAMA_MODELS="/run/media/luccas/Main/ollama-models"
+
+#sets nvim as default
+export VISUAL="nvim"
+export SYSTEMD_EDITOR="nvim"
+
+export PATH=$HOME/.local/bin:$PATH
+export TERM=xterm-256color
+
+export PATH="$PATH:/home/luccas/Applications/WebStorm-243.23654.157/bin"

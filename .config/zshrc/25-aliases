@@ -1,0 +1,27 @@
+# -----------------------------------------------------
+# ALIASES
+# -----------------------------------------------------
+
+# -----------------------------------------------------
+# General
+# -----------------------------------------------------
+alias c='clear'
+alias nf='fastfetch --config examples/13'
+alias pf='fastfetch --config examples/13'
+alias ff='fastfetch --config examples/13'
+alias ls='eza -a --icons=always'
+alias ll='eza -al --icons=always'
+alias lt='eza -a --tree --level=1 --icons=always'
+alias shutdown='systemctl poweroff'
+alias v='$EDITOR'
+alias vim='$EDITOR'
+alias vimKeys='nvim /home/luccas/Programming/nvimKeybinds.txt'
+
+alias mountwin='sudo mkdir -p /run/media/luccas/Windows && sudo ntfs-3g /dev/nvme0n1p4 /run/media/luccas/Windows'
+alias maindr='cd /run/media/luccas/Main/'
+
+alias discord='nohup ~/Applications/Discord/Discord >/dev/null 2>&1 &'
+alias steam='steam -silent > /dev/null 2>&1 &'
+alias warp='warp-terminal > /dev/null 2>&1 & disown'
+
+
