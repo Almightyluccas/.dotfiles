@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# But DO NOT ignore the following files and folders:
+!/.gitignore
+!/.config/nvim/
+!/.config/tmux/
+!/.config/zshrc
+# Add other files you want to track here, for example:
+!/.zshrc
+# !/.tmux.conf
