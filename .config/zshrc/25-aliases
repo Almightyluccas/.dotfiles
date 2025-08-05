@@ -17,11 +17,20 @@ alias v='$EDITOR'
 alias vim='$EDITOR'
 alias vimKeys='nvim /home/luccas/Programming/nvimKeybinds.txt'
 
+alias cpwd='pwd | tr -d "\n" | xclip -selection clipboard && echo "Current directory copied to clipboard"'
+alias zshconf='nvim ~/.config/zshrc'
+alias nvimconf='nvim ~/.config/nvim'
+
 alias mountwin='sudo mkdir -p /run/media/luccas/Windows && sudo ntfs-3g /dev/nvme0n1p4 /run/media/luccas/Windows'
+alias mountmain='sudo mkdir -p /run/media/luccas/Main && sudo mount /dev/sda1 /run/media/luccas/Main'
+alias mountboth='sudo mkdir -p /run/media/luccas/Windows && sudo ntfs-3g /dev/nvme0n1p4 /run/media/luccas/Windows; sudo mkdir -p /run/media/luccas/Main && sudo mount /dev/sda1 /run/media/luccas/Main'
+
 alias maindr='cd /run/media/luccas/Main/'
+alias windir='cd /run/media/luccas/Windows'
 
 alias discord='nohup ~/Applications/Discord/Discord >/dev/null 2>&1 &'
 alias steam='steam -silent > /dev/null 2>&1 &'
 alias warp='warp-terminal > /dev/null 2>&1 & disown'
 
 
+alias oracleDiscord='ssh -i ~/.ssh/oracle-discord-bot.key ubuntu@150.136.110.236'
