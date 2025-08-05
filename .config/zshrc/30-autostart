@@ -6,10 +6,10 @@
 # Fastfetch
 # -----------------------------------------------------
 
-if [[ -z "$TMUX" ]]; then
-  tmux attach-session -t default || tmux new-session -s default
-  exit
-fi
+# if [[ -z "$TMUX" ]]; then
+#  tmux attach-session -t default || tmux new-session -s default
+#  exit
+#fi
 
 if [[ $(tty) == *"pts"* ]]; then
     fastfetch --config examples/13
